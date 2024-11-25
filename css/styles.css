@@ -1,0 +1,130 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+img{
+    width: auto;
+    height: 165px;
+}
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f8f8f8;
+    color: #333;
+}
+
+header {
+    background-color: #ff5722;
+    color: #fff;
+    padding: 1rem;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 1.8rem;
+    
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 1rem;
+    font-size: 1.3rem;
+    font-weight: 600;
+
+}
+nav a:hover{
+    color: #333;
+}
+
+main {
+    max-width: 1200px;
+    margin: 2rem auto;
+    padding: 1rem;
+}
+
+/* Recipe List */
+.recipe-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 2rem;
+}
+
+.recipe-card {
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    padding: 1rem;
+}
+
+.recipe-card img {
+    width: 100%;
+    border-radius: 8px;
+}
+
+.recipe-card h2 {
+    font-size: 1.2rem;
+    color: #ff5722;
+    margin: 1rem 0;
+}
+
+.recipe-card a {
+    display: inline-block;
+    margin-top: 1rem;
+    padding: 0.5rem 1rem;
+    color: #fff;
+    background-color: #ff5722;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.recipe-card a:hover {
+    background-color: #e64a19;
+}
+
+/* Recipe Detail */
+.recipe-detail {
+    background: #fff;
+    border-radius: 8px;
+    padding: 2rem;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.recipe-detail h1 {
+    font-size: 2rem;
+    color: #ff5722;
+    margin-bottom: 1rem;
+    text-align: center;
+}
+
+.recipe-detail img {
+    width: 100%;
+    border-radius: 8px;
+    margin-bottom: 1.5rem;
+    height: 900px;
+}
+
+.recipe-detail h2 {
+    font-size: 1.5rem;
+    color: #333;
+    margin-bottom: 1rem;
+}
+
+.recipe-detail ul, .recipe-detail ol {
+    margin: 1rem 0 1rem 1.5rem;
+    line-height: 1.8;
+}
+
+.recipe-detail ul li, .recipe-detail ol li {
+    margin-bottom: 0.5rem;
+}
+footer{
+    background-color: #e64a19;
+    width: 100%;
+    text-align: center;
+    font-size: 40px;
+    color: #f8f4f4;
+}
